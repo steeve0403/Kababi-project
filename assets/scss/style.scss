@@ -1,0 +1,27 @@
+/* import bases */
+@import "bases/resets";
+@import "bases/fonts";
+
+/* import components */
+
+/* import layouts */
+@import "layouts/body";
+
+    @import "layouts/header";
+
+        @import "layouts/category";
+        @import "layouts/about-us";
+        @import "layouts/our-menu";
+        @import "layouts/gallery";
+        @import "layouts/our-chefs";
+        @import "layouts/our-blog";
+
+    @import "layouts/footer";
+
+/* import mobiles */
+
+/* import utils */
+@import "utils/variables";
+@import "utils/mixins";
+
+
