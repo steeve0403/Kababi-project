@@ -1,8 +1,13 @@
+/* import utils */
+@import "utils/variables";
+@import "utils/mixins";
+
 /* import bases */
 @import "bases/resets";
 @import "bases/fonts";
 
 /* import components */
+@import "components/nav";
 
 /* import layouts */
 @import "layouts/body";
@@ -20,8 +25,6 @@
 
 /* import mobiles */
 
-/* import utils */
-@import "utils/variables";
-@import "utils/mixins";
+
 
 
