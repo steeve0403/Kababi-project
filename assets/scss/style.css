@@ -1,24 +1,40 @@
 /* import bases */
-@font-face {
-  font-family: fa-brands;
-  font-weight: 400;
-  src: url("/assets/img/font/fa-brands-400.woff2") format("woff2");
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* 	border: 1px solid black; */
 }
-@font-face {
-  font-family: fa-light;
-  font-weight: 300;
-  src: url("/assets/img/font/fa-light-300.woff2") format("woff2");
+
+ul {
+  list-style-type: none;
 }
-@font-face {
-  font-family: fa-regular;
-  font-weight: 400;
-  src: url("/assets/img/font/fa-regular-400.woff2") format("woff2");
+
+a {
+  text-decoration: none;
 }
-@font-face {
-  font-family: fa-solid;
-  font-weight: 900;
-  src: url("/assets/img/font/fa-solid-900.woff2") format("woff2");
+
+input, button {
+  border: none;
 }
+
+body, html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* Font Forum */
+/* Font Open Sans */
+h1 {
+  font-family: "Forum", serif;
+}
+
+h2 {
+  font-family: "Forum", serif;
+}
+
 /* import components */
 /* import layouts */
 /* import mobiles */
